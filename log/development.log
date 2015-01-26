@@ -14089,3 +14089,34 @@ Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/fonts/champagne__limousines-webfont.woff" for 127.0.0.1 at 2015-01-26 11:52:43 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-26 12:30:41 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_stylesheets.html.erb (78.5ms)
+  Rendered layouts/_header.html.erb (18.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-26 12:50:37 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_stylesheets.html.erb (76.9ms)
+  Rendered layouts/_header.html.erb (16.3ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 204ms (Views: 172.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-26 12:50:38 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_stylesheets.html.erb (71.4ms)
+  Rendered layouts/_header.html.erb (15.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 93ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts/champagne__limousines-webfont.woff" for 127.0.0.1 at 2015-01-26 12:50:38 +0200
