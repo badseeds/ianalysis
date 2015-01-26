@@ -1,0 +1,219 @@
+.container {
+	width: 900px;
+}
+
+body {
+	font-family: 'Champagne Limousines'; 
+	background: white;
+}
+
+@font-face {  
+   font-family: 'Champagne Limousines';  
+   src: url('/assets/fonts/champagne__limousines-webfont.eot');  
+   src: url('/assets/fonts/champagne__limousines-webfont.eot?#iefix') format('embedded-opentype'),  
+     url('/assets/fonts/champagne__limousines-webfont.woff') format('woff'),  
+     url('/assets/fonts/champagne__limousines-webfont.ttf') format('truetype'),  
+     url('/assets/fonts/champagne__limousines-webfont.svg#champagne__limousines-webfontregular') format('svg');  
+   font-weight: normal;  
+   font-style: normal;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+}
+
+li {
+    font-size: 120%;
+    float: left;
+}
+
+header {
+	padding-top: 0px;
+}
+
+header img {
+
+	padding: 1em;
+	background: #fff;
+}
+
+section {
+	margin-top: 1em;
+	height: 300px;
+	font-family: 'Champagne Limousines';
+	font-size: 140%;
+	padding: 80px;
+	background: url('/images/marketing_surveys.png') no-repeat right;
+}
+
+section h1 {
+	font-size: 200%;
+	font-family: 'Champagne Limousines';
+}
+
+/* Links */
+
+a {
+	
+	font-family: 'Champagne Limousines';
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #069;
+}
+
+/* Navigation 	font-family: Arial, sans-serif; */
+
+nav {
+	font-family: 'Champagne Limousines';
+	color: black;
+	font-weight: normal;
+	font-size: 120%;
+	float: right;
+	background: white;
+	padding-top: 30px;
+	white-space: nowrap;
+	width: 550px;
+	height: 100px;
+}
+
+nav ul {
+	
+	font-family: 'Champagne Limousines';
+	color: black;
+	margin: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	width: 150px;
+	padding: 0.2em 0;
+}
+
+nav ul li a {
+	
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: black;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Sign up button */
+
+a.signup_button {
+	position: absolute; top: 500px; left: 750px; 
+	display: block;
+	text-align: left;
+	width: 170px;
+	color: black;
+	background: #B2FFE6;
+	font-size: 150%;
+	font-weight: bold;
+	padding: 10px;
+}
+
+/* Round corners */
+.round {
+	-moz-border-radius:    10px;
+	-webkit-border-radius: 10px;
+	border-radius:         10px;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	margin-top: 10px;
+	width: 710px;
+	margin-left: auto;
+	margin-right: auto
+} 
+
+footer nav {
+	float: none;
+}
+
+table.profile {
+	width: 100%;
+	padding: 1em;
+}
+
+td.main {
+	width: 70%
+	padding: 1em;
+}
+
+td.sidebar {
+	width: 30%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+
+.profile img.gravatar {
+	border: 1px solid #999;
+	margin-bottom: -15px;
+}
+
+div.field, div.actions {
+	margin-bottom: 10px;
+}
+
+.field_with_errors {
+  margin-top: 10px;
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.field_with_errors label {
+	color: #fff;
+}
+
+/* Error messages */
+
+#error_explanation {
+    width: 400px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+	text-align: left;
+	font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    background-color: #c00;
+    color: #fff;
+}
+
+#error_explanation p {
+    color: #333;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#error_explanation ul li {
+	font-size: 12px;
+	list-style: square;
+}

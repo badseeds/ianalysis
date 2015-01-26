@@ -1,0 +1,39 @@
+source 'https://rubygems.org'
+
+gem 'ruby'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.1.6'
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+
+gem 'gravatar_image_tag', '1.2.0'
+
+group :development, :test do
+  gem 'capybara', '2.4.3'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'growl', '1.0.3'
+  gem 'sqlite3'
+  gem 'byebug',      '3.4.0'
+  gem 'spring'
+  gem 'annotate'
+  gem 'nokogiri'
+  gem 'autotest-rails'
+  gem 'autotest-growl'
+end
+
+group :test do 
+  gem 'childprocess', '0.3.6'
+  gem 'factory_girl_rails', '4.5.0'
+end
+
+group :production do
+#  gem 'pg', '0.15.1'
+#  gem 'rails_12factor'
+end
+
